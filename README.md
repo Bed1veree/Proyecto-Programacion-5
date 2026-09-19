@@ -91,7 +91,3 @@ Luego abre `http://localhost:3000` en el navegador.
 - [Roles](docs/informe/02_roles.md)
 - [Modelo de datos](docs/informe/03_modelo_base_datos.md)
 - [Mockups](docs/informe/04_mockups.md)
-
-## Notas
-
-La cuenta de ejemplo es solo para uso local. No subas el archivo `.env` al repositorio.
