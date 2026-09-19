@@ -1,0 +1,523 @@
+# Bocetos de la interfaz de BiblioUni
+
+## MOCKUP 1: Página de Inicio (Landing Page)
+
+```
+┌───────────────────────────────────────────────────────────────┐
+│ BiblioUni                                      [Login] [Registro]│
+├───────────────────────────────────────────────────────────────┤
+│                                                               │
+│                   ¡BIENVENIDO A BIBLIOUNI!                    │
+│             Consulta el catálogo de la biblioteca             │
+│                                                               │
+│                  ┌──────────────┐  ┌──────────────┐           │
+│                  │ Iniciar Sesión  │  │ Registrarse   │           │
+│                  └──────────────┘  └──────────────┘           │
+│                                                               │
+│───────────────────────────────────────────────────────────────│
+│                      ¿QUÉ PUEDES HACER?                       │
+│                                                               │
+│  ┌──────────────────┐  ┌──────────────────┐  ┌────────────────┐
+│  │   📚 Consulta    │  │   📋 Solicita    │  │   📌 Revisa    │
+│  │   el catálogo    │  │ préstamos en     │  │ si el libro    │
+│  │                  │  │ línea            │  │ está disponible│
+│  └──────────────────┘  └──────────────────┘  └────────────────┘
+│                                                               │
+│───────────────────────────────────────────────────────────────│
+│                     ¿CÓMO FUNCIONA?                           │
+│                                                               │
+│  1. Busca un libro en el catálogo                            │
+│  2. Completa el formulario de solicitud                      │
+│  3. La biblioteca revisa la solicitud                        │
+│  4. Si se aprueba, retira el libro en la biblioteca          │
+│                                                               │
+├───────────────────────────────────────────────────────────────┤
+│ © 2024 Sistema de Gestión de Biblioteca Universitaria        │
+└───────────────────────────────────────────────────────────────┘
+```
+
+---
+
+## MOCKUP 2: Página de Autenticación (Login)
+
+```
+┌───────────────────────────────────────────────────────────────┐
+│ BiblioUni                                                     │
+├───────────────────────────────────────────────────────────────┤
+│                                                               │
+│                                                               │
+│                    ┌─────────────────────────┐                │
+│                    │   BiblioUni Logo        │                │
+│                    │                         │                │
+│                    │   INICIAR SESIÓN        │                │
+│                    │                         │                │
+│                    │ ┌─────────────────────┐ │                │
+│                    │ │ Email o Cédula      │ │                │
+│                    │ │ [________________]  │ │                │
+│                    │ └─────────────────────┘ │                │
+│                    │                         │                │
+│                    │ ┌─────────────────────┐ │                │
+│                    │ │ Contraseña      [👁] │ │                │
+│                    │ │ [________________]  │ │                │
+│                    │ └─────────────────────┘ │                │
+│                    │                         │                │
+│                    │ ☐ Recuérdame            │                │
+│                    │                         │                │
+│                    │ ┌─────────────────────┐ │                │
+│                    │ │ Iniciar Sesión      │ │                │
+│                    │ └─────────────────────┘ │                │
+│                    │                         │                │
+│                    │ ¿Olvidaste tu contraseña?                │
+│                    │                         │                │
+│                    │ ¿No tienes cuenta? Regístrate aquí       │
+│                    │                         │                │
+│                    └─────────────────────────┘                │
+│                                                               │
+│                                                               │
+├───────────────────────────────────────────────────────────────┤
+│ © 2024 Sistema de Gestión de Biblioteca Universitaria        │
+└───────────────────────────────────────────────────────────────┘
+```
+
+---
+
+## MOCKUP 3: Página de Registro (Sign Up)
+
+```
+┌───────────────────────────────────────────────────────────────┐
+│ BiblioUni                                                     │
+├───────────────────────────────────────────────────────────────┤
+│                                                               │
+│                    ┌─────────────────────────┐                │
+│                    │   CREAR CUENTA          │                │
+│                    │ Regístrate para acceder │                │
+│                    │                         │                │
+│                    │  PASO 1 - INFO PERSONAL │                │
+│                    │                         │                │
+│                    │ ┌─────────────────────┐ │                │
+│                    │ │ Nombre              │ │                │
+│                    │ │ [________________]  │ │                │
+│                    │ └─────────────────────┘ │                │
+│                    │                         │                │
+│                    │ ┌─────────────────────┐ │                │
+│                    │ │ Email               │ │                │
+│                    │ │ [________________]  │ │                │
+│                    │ └─────────────────────┘ │                │
+│                    │                         │                │
+│                    │ ┌─────────────────────┐ │                │
+│                    │ │ Cédula              │ │                │
+│                    │ │ [________________]  │ │                │
+│                    │ └─────────────────────┘ │                │
+│                    │                         │                │
+│                    │ ┌─────────────────────┐ │                │
+│                    │ │ Teléfono            │ │                │
+│                    │ │ [________________]  │ │                │
+│                    │ └─────────────────────┘ │                │
+│                    │                         │                │
+│                    │ ┌──────────────┐ ┌────┐ │                │
+│                    │ │ Siguiente    │ │Atras│ │                │
+│                    │ └──────────────┘ └────┘ │                │
+│                    │                         │                │
+│                    │ Paso 1 de 3             │                │
+│                    │                         │                │
+│                    └─────────────────────────┘                │
+│                                                               │
+│                                                               │
+├───────────────────────────────────────────────────────────────┤
+│ © 2024 Sistema de Gestión de Biblioteca Universitaria        │
+└───────────────────────────────────────────────────────────────┘
+```
+
+---
+
+## MOCKUP 4: Dashboard - Administrador
+
+```
+┌───────────────────────────────────────────────────────────────┐
+│ BiblioUni  🔍 Búsqueda  │👤 Juan Pérez  🔔 (3)  ⚙️ Logout     │
+├─────────────────────────┬───────────────────────────────────────┤
+│ MENÚ                    │                                       │
+│ ▸ Dashboard             │              BIENVENIDO               │
+│ ▸ Gestión de Usuarios   │            Admin: Juan Pérez          │
+│ ▸ Reportes              │                                       │
+│ ▸ Configuración         │     ┌─────────────┬─────────────────┐ │
+│ ▸ Auditoría             │     │ Usuarios    │     450          │ │
+│ ▸ Cerrar Sesión         │     │ Libros      │    1,250         │ │
+│                         │     │ Préstamos   │     342          │ │
+│                         │     │ Multas      │   $1,240         │ │
+│                         │     └─────────────┴─────────────────┘ │
+│                         │                                       │
+│                         │  ┌─ GRÁFICOS ESTADÍSTICOS ──────────┐│
+│                         │  │                                  ││
+│                         │  │ Préstamos x Mes (Línea)          ││
+│                         │  │ [GRÁFICO AQUÍ]                  ││
+│                         │  │                                  ││
+│                         │  └──────────────────────────────────┘│
+│                         │                                       │
+│                         │  ACCIONES RÁPIDAS                    │
+│                         │  ┌──────────┐ ┌──────────┐           │
+│                         │  │ + Crear  │ │ Reportes │           │
+│                         │  │ Usuario  │ │          │           │
+│                         │  └──────────┘ └──────────┘           │
+│                         │                                       │
+├───────────────────────────────────────────────────────────────┤
+│ © 2024 Sistema de Gestión de Biblioteca Universitaria        │
+└───────────────────────────────────────────────────────────────┘
+```
+
+---
+
+## MOCKUP 5: Dashboard - Bibliotecario
+
+```
+┌───────────────────────────────────────────────────────────────┐
+│ BiblioUni  🔍 Búsqueda  │👤 María López  🔔 (2)  ⚙️ Logout   │
+├─────────────────────────┬───────────────────────────────────────┤
+│ MENÚ                    │                                       │
+│ ▸ Dashboard             │         PANEL OPERACIONAL             │
+│ ▸ Nuevo Préstamo        │                                       │
+│ ▸ Procesar Devolución   │  ACCIONES PENDIENTES:                │
+│ ▸ Gestionar Catálogo    │  • Préstamos por procesar: 8        │
+│ ▸ Inventario            │  • Devoluciones pendientes: 5        │
+│ ▸ Multas                │  • Reservas disponibles: 3           │
+│ ▸ Cerrar Sesión         │                                       │
+│                         │  PRÉSTAMOS PENDIENTES HOY            │
+│                         │  ┌────────────────────────────────────┐
+│                         │  │ ID │ Estudiante │ Libro           │
+│                         │  ├────────────────────────────────────┤
+│                         │  │ 45 │ Ana García │ El Quijote     │
+│                         │  │ 46 │ Juan López │ Fundación      │
+│                         │  │ 47 │ Carla Díaz │ Cien años...   │
+│                         │  └────────────────────────────────────┐
+│                         │                                       │
+│                         │  BÚSQUEDA RÁPIDA                      │
+│                         │  Buscar por ISBN o Título:            │
+│                         │  [_____________________] [Buscar]     │
+│                         │                                       │
+├───────────────────────────────────────────────────────────────┤
+│ © 2024 Sistema de Gestión de Biblioteca Universitaria        │
+└───────────────────────────────────────────────────────────────┘
+```
+
+---
+
+## MOCKUP 6: Dashboard - Estudiante
+
+```
+┌───────────────────────────────────────────────────────────────┐
+│ BiblioUni  🔍 Búsqueda  │👤 Carlos Ruiz  🔔 (3)  ⚙️ Logout   │
+├─────────────────────────┬───────────────────────────────────────┤
+│ MENÚ                    │                                       │
+│ ▸ Inicio                │    ¡BIENVENIDO DE VUELTA!             │
+│ ▸ Mis Préstamos        │        Estudiante: Carlos Ruiz        │
+│ ▸ Mis Reservas         │                                       │
+│ ▸ Mis Multas           │   ┌─────────────┬───────────────────┐ │
+│ ▸ Buscar Libros        │   │ Préstamos   │      2            │ │
+│ ▸ Mi Perfil            │   │ Reservas    │      1            │ │
+│ ▸ Cerrar Sesión        │   │ Multas      │   $15.000         │ │
+│                         │   │ Notif.      │      3            │ │
+│                         │   └─────────────┴───────────────────┘ │
+│                         │                                       │
+│                         │   PRÓXIMOS VENCIMIENTOS:              │
+│                         │   • "El Quijote" - Vence: 2024-01-15 │
+│                         │   • "Fundación" - Vence: 2024-01-20  │
+│                         │                                       │
+│                         │   LIBROS RECOMENDADOS:                │
+│                         │   ┌──────────┐ ┌──────────┐ ┌────────┐
+│                         │   │ Libro 1  │ │ Libro 2  │ │Libro 3 │
+│                         │   │ [Portada]│ │[Portada] │ │[Port.] │
+│                         │   │ Autor    │ │ Autor    │ │Autor   │
+│                         │   └──────────┘ └──────────┘ └────────┘
+│                         │                                       │
+├───────────────────────────────────────────────────────────────┤
+│ © 2024 Sistema de Gestión de Biblioteca Universitaria        │
+└───────────────────────────────────────────────────────────────┘
+```
+
+---
+
+## MOCKUP 7: Búsqueda de Libros
+
+```
+┌───────────────────────────────────────────────────────────────┐
+│ BiblioUni  🔍 Búsqueda  │👤 Carlos Ruiz  🔔 (1)  ⚙️ Logout   │
+├─────────────────────────┬───────────────────────────────────────┤
+│ MENÚ                    │  BÚSQUEDA DE LIBROS                   │
+│ ▸ Inicio                │                                       │
+│ ▸ Mis Préstamos        │  Búsqueda: [_________________] [🔍]   │
+│ ▸ Mis Reservas         │                                       │
+│ ▸ Mis Multas           │  FILTROS:                             │
+│ ▸ Buscar Libros        │  ☐ Ficción                            │
+│ ▸ Mi Perfil            │  ☐ Ciencia                            │
+│ ▸ Cerrar Sesión        │  ☐ Historia                           │
+│                         │  ☐ Disponible                        │
+│                         │                                       │
+│                         │  RESULTADOS: 3 libros encontrados    │
+│                         │                                       │
+│                         │  ┌──────────┐ ┌──────────┐           │
+│                         │  │ Portada  │ │ Portada  │           │
+│                         │  │          │ │          │           │
+│                         │  │ El       │ │Fundación │           │
+│                         │  │ Quijote  │ │          │           │
+│                         │  │ Cervantes│ │ Asimov   │           │
+│                         │  │ ISBN:... │ │ISBN:...  │           │
+│                         │  │ Disponible│ │Disponible│          │
+│                         │  │[Detalles]│ │[Detalles]│          │
+│                         │  │[Solicitar│ │[Solicitar│          │
+│                         │  └──────────┘ └──────────┘           │
+│                         │                                       │
+│                         │  ┌──────────┐                         │
+│                         │  │ Portada  │                         │
+│                         │  │          │                         │
+│                         │  │ Cien años│                         │
+│                         │  │ de sld..│                         │
+│                         │  │ García M │                         │
+│                         │  │ ISBN:... │                         │
+│                         │  │No disponible                        │
+│                         │  │[Detalles]│                         │
+│                         │  │[Reservar]│                         │
+│                         │  └──────────┘                         │
+│                         │                                       │
+├───────────────────────────────────────────────────────────────┤
+│ © 2024 Sistema de Gestión de Biblioteca Universitaria        │
+└───────────────────────────────────────────────────────────────┘
+```
+
+---
+
+## MOCKUP 8: Detalle de Libro
+
+```
+┌───────────────────────────────────────────────────────────────┐
+│ BiblioUni  🔍 Búsqueda  │👤 Carlos Ruiz  🔔 (1)  ⚙️ Logout   │
+├─────────────────────────┬───────────────────────────────────────┤
+│ MENÚ                    │  DETALLE DEL LIBRO                    │
+│ ▸ Inicio                │                                       │
+│ ▸ Mis Préstamos        │  [< Volver]                           │
+│ ▸ Mis Reservas         │                                       │
+│ ▸ Mis Multas           │  ┌──────────┐                         │
+│ ▸ Buscar Libros        │  │          │  EL QUIJOTE             │
+│ ▸ Mi Perfil            │  │ Portada  │  de la Mancha           │
+│ ▸ Cerrar Sesión        │  │          │                         │
+│                         │  │          │  Autor: Miguel de Cervantes
+│                         │  └──────────┘  Nacionalidad: España
+│                         │                                       │
+│                         │  ISBN: 978-84-01-33797-6              │
+│                         │  Categoría: Ficción Clásica           │
+│                         │  Editorial: Penguin Classics          │
+│                         │  Año Publicación: 1605                │
+│                         │                                       │
+│                         │  DESCRIPCIÓN:                         │
+│                         │  Las aventuras de Don Quijote, el     │
+│                         │  caballero andante más famoso de la   │
+│                         │  literatura...                         │
+│                         │                                       │
+│                         │  DISPONIBILIDAD:                      │
+│                         │  Stock disponible: 3 de 5             │
+│                         │  Ubicación: Piso 2, Sección A,        │
+│                         │             Estante 5                 │
+│                         │                                       │
+│                         │  RESERVAS:                            │
+│                         │  Personas en lista: 2                 │
+│                         │                                       │
+│                         │  ┌──────────────┐ ┌────────────────┐ │
+│                         │  │ Solicitar... │ │ Hacer Reserva  │ │
+│                         │  │ Préstamo (14)│ │   (Si no hay)  │ │
+│                         │  └──────────────┘ └────────────────┘ │
+│                         │                                       │
+├───────────────────────────────────────────────────────────────┤
+│ © 2024 Sistema de Gestión de Biblioteca Universitaria        │
+└───────────────────────────────────────────────────────────────┘
+```
+
+---
+
+## MOCKUP 9: Mis Préstamos
+
+```
+┌───────────────────────────────────────────────────────────────┐
+│ BiblioUni  🔍 Búsqueda  │👤 Carlos Ruiz  🔔 (1)  ⚙️ Logout   │
+├─────────────────────────┬───────────────────────────────────────┤
+│ MENÚ                    │  MIS PRÉSTAMOS ACTIVOS                │
+│ ▸ Inicio                │                                       │
+│ ▸ Mis Préstamos        │  ┌─────────────────────────────────────┐
+│ ▸ Mis Reservas         │  │ El Quijote                          │
+│ ▸ Mis Multas           │  │ Autor: Miguel de Cervantes          │
+│ ▸ Buscar Libros        │  │                                     │
+│ ▸ Mi Perfil            │  │ Fecha Préstamo: 2024-01-01          │
+│ ▸ Cerrar Sesión        │  │ Vencimiento: 2024-01-15             │
+│                         │  │ Días Restantes: 12                  │
+│                         │  │                                     │
+│                         │  │ ┌──────────────┐ ┌────────────────┐│
+│                         │  │ │ Renovar (1)  │ │ Ver Detalles   ││
+│                         │  │ └──────────────┘ └────────────────┘│
+│                         │  └─────────────────────────────────────┐
+│                         │                                       │
+│                         │  ┌─────────────────────────────────────┐
+│                         │  │ Fundación                           │
+│                         │  │ Autor: Isaac Asimov                 │
+│                         │  │                                     │
+│                         │  │ Fecha Préstamo: 2024-01-05          │
+│                         │  │ Vencimiento: 2024-01-20             │
+│                         │  │ Días Restantes: 7                   │
+│                         │  │                                     │
+│                         │  │ ┌──────────────┐ ┌────────────────┐│
+│                         │  │ │ Renovar (1)  │ │ Ver Detalles   ││
+│                         │  │ └──────────────┘ └────────────────┘│
+│                         │  └─────────────────────────────────────┐
+│                         │                                       │
+│                         │  HISTORIAL DE DEVOLUCIONES:           │
+│                         │                                       │
+│                         │  ┌──────────┬──────────┬───────────┐  │
+│                         │  │ Libro    │ Devolución│ Estado   │  │
+│                         │  ├──────────┼──────────┼───────────┤  │
+│                         │  │ 1984     │ 2023-12-15│ Bueno    │  │
+│                         │  │ Drácula  │ 2023-12-20│ Bueno    │  │
+│                         │  └──────────┴──────────┴───────────┘  │
+│                         │                                       │
+├───────────────────────────────────────────────────────────────┤
+│ © 2024 Sistema de Gestión de Biblioteca Universitaria        │
+└───────────────────────────────────────────────────────────────┘
+```
+
+---
+
+## MOCKUP 10: Mis Multas
+
+```
+┌───────────────────────────────────────────────────────────────┐
+│ BiblioUni  🔍 Búsqueda  │👤 Carlos Ruiz  🔔 (1)  ⚙️ Logout   │
+├─────────────────────────┬───────────────────────────────────────┤
+│ MENÚ                    │  MIS MULTAS                           │
+│ ▸ Inicio                │                                       │
+│ ▸ Mis Préstamos        │  TOTAL MULTAS PENDIENTES: $15.000     │
+│ ▸ Mis Reservas         │                                       │
+│ ▸ Mis Multas           │  ┌────────────────────────────────────┐│
+│ ▸ Buscar Libros        │  │ Concepto: Retraso en devolución   ││
+│ ▸ Mi Perfil            │  │ Monto: $10.000                    ││
+│ ▸ Cerrar Sesión        │  │ Fecha Generada: 2024-01-10        ││
+│                         │  │ Estado: PENDIENTE ⚠️               ││
+│                         │  │ Libro: El Quijote                ││
+│                         │  │                                   ││
+│                         │  │ ┌──────────────┐ ┌────────────────┐│
+│                         │  │ │ Pagar        │ │ Ver Detalle    ││
+│                         │  │ └──────────────┘ └────────────────┘│
+│                         │  └────────────────────────────────────┐│
+│                         │                                       │
+│                         │  ┌────────────────────────────────────┐│
+│                         │  │ Concepto: Daño del libro          ││
+│                         │  │ Monto: $5.000                     ││
+│                         │  │ Fecha Generada: 2024-01-08        ││
+│                         │  │ Estado: PENDIENTE ⚠️               ││
+│                         │  │ Libro: Fundación                  ││
+│                         │  │                                   ││
+│                         │  │ ┌──────────────┐ ┌────────────────┐│
+│                         │  │ │ Pagar        │ │ Ver Detalle    ││
+│                         │  │ └──────────────┘ └────────────────┘│
+│                         │  └────────────────────────────────────┐│
+│                         │                                       │
+│                         │  HISTORIAL DE MULTAS PAGADAS:         │
+│                         │                                       │
+│                         │  ✓ 2024-01-01 | $3.000 | Retraso    │
+│                         │  ✓ 2023-12-15 | $2.000 | Retraso    │
+│                         │  ✓ 2023-11-30 | $1.000 | Retraso    │
+│                         │                                       │
+├───────────────────────────────────────────────────────────────┤
+│ © 2024 Sistema de Gestión de Biblioteca Universitaria        │
+└───────────────────────────────────────────────────────────────┘
+```
+
+---
+
+## MOCKUP 11: Notificaciones
+
+```
+┌───────────────────────────────────────────────────────────────┐
+│ BiblioUni  🔍 Búsqueda  │👤 Carlos Ruiz  🔔(3)  ⚙️ Logout   │
+│                                                               │
+│  ┌─────────────────────────────────────────────────────────┐ │
+│  │ NOTIFICACIONES (3 NO LEÍDAS)                            │ │
+│  ├─────────────────────────────────────────────────────────┤ │
+│  │                                                         │ │
+│  │ ⏰ Vencimiento próximo                      [NO LEÍDO]  │ │
+│  │ Tu préstamo de 'El Quijote' vence en 2 días            │ │
+│  │ 2024-01-13 @ 14:30                                      │ │
+│  │ [Marcar como leído] [X]                                │ │
+│  │                                                         │ │
+│  ├─────────────────────────────────────────────────────────┤ │
+│  │                                                         │ │
+│  │ ⚠️  Multa generada                        [NO LEÍDO]    │ │
+│  │ Se generó una multa de $10.000 por retraso en          │ │
+│  │ devolución                                              │ │
+│  │ 2024-01-10 @ 11:00                                      │ │
+│  │ [Marcar como leído] [X]                                │ │
+│  │                                                         │ │
+│  ├─────────────────────────────────────────────────────────┤ │
+│  │                                                         │ │
+│  │ ✓ Libro disponible                        [NO LEÍDO]   │ │
+│  │ ¡El libro que reservaste está disponible!              │ │
+│  │ Fecha de disponibilidad: 2024-01-12                     │ │
+│  │ 2024-01-11 @ 09:15                                      │ │
+│  │ [Marcar como leído] [X]                                │ │
+│  │                                                         │ │
+│  ├─────────────────────────────────────────────────────────┤ │
+│  │                                                         │ │
+│  │ 📚 Recordatorio de devolución              [LEÍDO]      │ │
+│  │ Recuerda devolver 'Cien años de soledad' hoy            │ │
+│  │ 2024-01-08 @ 08:00                                      │ │
+│  │ [X]                                                     │ │
+│  │                                                         │ │
+│  └─────────────────────────────────────────────────────────┘ │
+│                                                               │
+├───────────────────────────────────────────────────────────────┤
+│ © 2024 Sistema de Gestión de Biblioteca Universitaria        │
+└───────────────────────────────────────────────────────────────┘
+```
+
+---
+
+## Leyenda de Elementos
+
+```
+COLORES Y ESTILOS:
+[Botón Primario] = Color naranja (#FF9500)
+[Botón Secundario] = Color blanco con borde azul
+┌─────────┐ = Card/Tarjeta de contenido
+[LEÍDO] = Notificación marcada como leída
+[NO LEÍDO] = Notificación sin leer (resaltada)
+✓ = Elemento completado/pagado
+⚠️ = Alerta/advertencia
+⏰ = Tiempo/vencimiento
+📚 = Libro/biblioteca
+💰 = Dinero/multa
+👤 = Perfil/usuario
+🔍 = Búsqueda
+🔔 = Notificaciones
+⚙️ = Configuración
+```
+
+---
+
+## Esquema de Navegación
+
+```
+                           [Inicio]
+                              │
+            ┌─────────────────┼─────────────────┐
+            │                 │                 │
+         [Login]          [Registro]      [Navegación]
+            │                 │                 │
+            │                 │                 │
+      ┌─────┴─────┐      ┌────┴────┐      ┌────┴────────────────────┐
+      │            │      │         │      │                         │
+   [Admin]    [Bibliotecario] [Estudiante]
+      │            │      │         │      │
+      ├─────┬──────┴─┬────┴──┬─────┴──┬───┴──┐
+      │     │        │       │        │      │
+   Dashboard Dashboard Dashboard  Catálogo Perfil
+      │     │        │       │        │      │
+   Usuarios Catálogo Operación Búsqueda Préstamos
+   Reportes Inventario Devoluciones Detalles Reservas
+   Config  Multas    Multas           Multas
+   Auditoría Reportes Notificaciones Notif.
+```
